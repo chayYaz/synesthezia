@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+ .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+  border-radius: 15%;
+}
+.button2:active {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+} 
+.letters{
+  font-size: 3rem;
+  text-align: center ;
+}
+.centralize{
+/*   height:8rem; */
+    margin-left: auto;
+    margin-right: auto ;
+  display: flex;
+justify-content: center;
+   align-items:center;
+  padding-right:10px;
+  padding-left:10px;
+}
